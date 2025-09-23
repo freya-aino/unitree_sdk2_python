@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='unitree_sdk2py',
-      version='1.0.1',
+      version='1.0.2',
       author='UnitreeRobotics',
       author_email='unitree@unitree.com',
       long_description=open('README.md').read(),
