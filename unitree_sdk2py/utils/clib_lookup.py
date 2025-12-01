@@ -11,7 +11,7 @@ def CLIBCheckError(ret, func, args):
 
 def CLIBLookup(name, resType, argTypes):
     func = clib[name]
-    func.restye = resType
+    func.restype = resType
     func.argtypes = argTypes
     func.errcheck = CLIBCheckError
     return func
