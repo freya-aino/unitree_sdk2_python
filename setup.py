@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='unitree_sdk2py',
-      version='1.0.2',
+      version='1.0.3',
       author='UnitreeRobotics',
       author_email='unitree@unitree.com',
       long_description=open('README.md').read(),
@@ -15,8 +15,5 @@ setup(name='unitree_sdk2py',
       },
       python_requires='>=3.8',
       install_requires=[
-            "cyclonedds==0.10.2",
-            "numpy",
-            "opencv-python",
       ],
       )

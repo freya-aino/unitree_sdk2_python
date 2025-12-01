@@ -1,8 +1,8 @@
 import time
 import sys
-from unitree_sdk2py.core.channel import ChannelSubscriber, ChannelFactoryInitialize
-from unitree_sdk2py.g1.arm.g1_arm_action_client import G1ArmActionClient
-from unitree_sdk2py.g1.arm.g1_arm_action_client import action_map
+from src.core.channel import ChannelSubscriber, ChannelFactoryInitialize
+from src.g1.arm.g1_arm_action_client import G1ArmActionClient
+from src.g1.arm.g1_arm_action_client import action_map
 from dataclasses import dataclass
 
 @dataclass

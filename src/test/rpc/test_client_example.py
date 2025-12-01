@@ -1,8 +1,8 @@
 import time
 import json
 
-from unitree_sdk2py.core.channel import ChannelFactoryInitialize
-from unitree_sdk2py.rpc.client import Client
+from src.core.channel import ChannelFactoryInitialize
+from src.rpc.client import Client
 
 from test_api import *
 

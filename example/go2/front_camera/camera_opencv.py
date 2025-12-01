@@ -1,5 +1,5 @@
-from unitree_sdk2py.core.channel import ChannelFactoryInitialize
-from unitree_sdk2py.go2.video.video_client import VideoClient
+from src.core.channel import ChannelFactoryInitialize
+from src.go2.video.video_client import VideoClient
 import cv2
 import numpy as np
 import sys

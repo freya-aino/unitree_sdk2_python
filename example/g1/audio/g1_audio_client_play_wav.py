@@ -1,6 +1,6 @@
 import sys
-from unitree_sdk2py.core.channel import ChannelFactoryInitialize
-from unitree_sdk2py.g1.audio.g1_audio_client import AudioClient
+from src.core.channel import ChannelFactoryInitialize
+from src.g1.audio.g1_audio_client import AudioClient
 from wav import read_wav, play_pcm_stream
 
 def main():

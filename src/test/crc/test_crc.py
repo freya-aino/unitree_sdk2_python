@@ -1,6 +1,6 @@
-from unitree_sdk2py.idl.default import unitree_go_msg_dds__LowCmd_, unitree_go_msg_dds__LowState_
-from unitree_sdk2py.idl.default import unitree_hg_msg_dds__LowCmd_, unitree_hg_msg_dds__LowState_
-from unitree_sdk2py.utils.crc import CRC
+from src.idl.default import unitree_go_msg_dds__LowCmd_, unitree_go_msg_dds__LowState_
+from src.idl.default import unitree_hg_msg_dds__LowCmd_, unitree_hg_msg_dds__LowState_
+from src.utils.crc import CRC
 
 crc = CRC()
 

@@ -1,6 +1,6 @@
-from unitree_sdk2py.core.channel import ChannelFactoryInitialize
-from unitree_sdk2py.b2.front_video.front_video_client import FrontVideoClient
-from unitree_sdk2py.b2.back_video.back_video_client import BackVideoClient
+from src.core.channel import ChannelFactoryInitialize
+from src.b2.front_video.front_video_client import FrontVideoClient
+from src.b2.back_video.back_video_client import BackVideoClient
 import cv2
 import numpy as np
 import sys
